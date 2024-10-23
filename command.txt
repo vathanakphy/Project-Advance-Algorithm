@@ -1,0 +1,2 @@
+command to run testOpenCV.cpp
+g++ testOpenCV.cpp -o testOpenCV $(pkg-config --cflags --libs opencv4) && ./testOpenCV
